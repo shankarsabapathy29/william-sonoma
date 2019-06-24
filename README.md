@@ -8,7 +8,7 @@
 
 1) React
 2) Jest for Unit testing
-3) Slick Carousel - Carousel (Initially planned to use Bootstrap, which does not so many features)
+3) Slick Carousel - Carousel (Initially planned to use Bootstrap, which does not has many features)
 4) Modal - Bootstrap
 
 ## Build Process
