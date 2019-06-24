@@ -21,16 +21,15 @@
 
 1) Do "npm test"
 
-Written test cases for App.js and ProductGrid.js.
-@todo - productImageModal.js
+* Written test cases for App.js and ProductGrid.js.
 
 
 ## ADA
 
-ADA approved Color code has been used
-Focus has been handled
-Slick Carousel has by default accesbility enabled
-Used HTML5 structure, eg:
+* ADA approved Color code has been used
+* Focus has been handled
+* Slick Carousel has by default accesbility enabled
+* Used HTML5 structure, eg:
 1) header, main, footer
 2) Only one H1 Tag.
 3) Image should have alt attribute.
@@ -38,6 +37,6 @@ Used HTML5 structure, eg:
 
 ## Search
 
-Added title Tag
-Added only H1 tag
-There is no much to be covered purely on frontend. We have to do canonicalization, server side rendering for top products
+* Added title Tag
+* Added only H1 tag
+* There is no much to be covered purely on frontend. We have to do canonicalization, server side rendering for top products
