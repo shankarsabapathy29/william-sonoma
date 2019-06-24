@@ -1,23 +1,23 @@
 # William Sonama - Coding Challenge
 
-#Prerequisites
+## Prerequisites
 
 1) Install Node 10.x (latest version)
 
-#Tech stack
+## Tech stack
 
 1) React
 2) Jest for Unit testing
 3) Slick Carousel - Carousel (Initially planned to use Bootstrap, which does not so many features)
 4) Modal - Bootstrap
 
-#Build Process
+## Build Process
 
 1) Do "npm install"
 2) Do "npm start" //Start the node server, default port number 3000 (https://localhost:3000)
 
 
-#Test (Used Jest)
+## Test (Used Jest)
 
 1) Do "npm test"
 
@@ -25,7 +25,7 @@ Written test cases for App.js and ProductGrid.js.
 @todo - productImageModal.js
 
 
-#ADA
+## ADA
 
 ADA approved Color code has been used
 Focus has been handled
@@ -36,7 +36,7 @@ Used HTML5 structure, eg:
 3) Image should have alt attribute.
 
 
-#Search
+## Search
 
 Added title Tag
 Added only H1 tag
