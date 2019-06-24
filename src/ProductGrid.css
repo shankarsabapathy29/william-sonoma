@@ -1,0 +1,135 @@
+.product-grid {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    margin: 10px;
+    position: relative;
+    width: 363px;
+    height: 363px;
+}
+
+.product-content {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+}
+
+.product-item .product-image{
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+img:focus {
+    outline: 2px solid blue;
+}
+
+ .product-name {
+    z-index:1;
+    min-height: 48px;
+    background-color: #d6d7d9;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+}
+.product-name a  {
+    color: #212121;
+}
+.product-name a:hover {
+    text-decoration: none;
+    color: #212121;
+}
+.product-price {
+   z-index: 1;
+   bottom: 20px;
+   position: absolute;
+   background-color: #494440;
+   font-size: 14px;
+   opacity: 1;
+   padding: 4px;
+   font-weight: bold;
+   color: #FFFFFF;
+
+}
+
+.product-content .product-base-price {
+   font-weight: normal;
+   padding-left: 4px;
+}
+
+.error-con {
+    height: 200px;
+    padding: 10px;
+}
+
+.error-con .error-message {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #d6d7d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+  .product-item {
+      width: 320px;
+      height: 320px;
+      margin: 4px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .product-item {
+       width: 275px;
+       height: 275px;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .product-item {
+      width: 347px;
+      height: 347px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .product-item {
+      width: 300px;
+      height: 300px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1158px) {
+  .product-item {
+    width: 347px;
+    height: 347px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .product-item {
+        width: 363px;
+        height: 363px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+}

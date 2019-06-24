@@ -1,0 +1,82 @@
+.modal-header {
+    font-size: 0.75rem;
+}
+.modal-title {
+    font-size: 1rem;
+}
+
+.modal-body {
+    //background: tomato;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.product-image-carousel-self {
+    padding: 10px;
+}
+
+.product-image-carousel {
+   width: 95%;
+   margin: auto;
+   text-align: center;
+}
+
+.product-image-carousel-thumbnail {
+    width: 96px;
+    height: 96px;
+    margin: 4px;
+}
+
+.product-image-carousel-dots li {
+    display: inline-block;
+}
+
+.product-image-carousel-dots {
+    position: unset;
+    bottom: unset;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid #DEDEDE;
+    padding-top: 10px;
+}
+
+.product-image-carousel-dots .slick-active {
+    background-color: #aeb0b5;
+}
+
+.product-image-carousel-item .slick-list {
+    width: 363px;
+    margin: auto;
+}
+
+.modal-md .product-image-carousel-item .slick-prev {
+    left: 3px;
+    top: 170px;
+}
+
+.modal-md .product-image-carousel-item .slick-next {
+    right: 5px;
+    top: 170px;
+}
+
+.modal-lg .product-image-carousel-item .slick-prev {
+    left: 10%;
+    top: 160px;
+}
+
+.modal-lg .product-image-carousel-item .slick-next {
+    right: 10%;
+    top: 160px;
+}
+
+.product-image-carousel-item .slick-prev:before, .product-image-carousel-item .slick-next:before {
+    font-size: 32px;
+    opacity: .75;
+    color: #5b616b;
+}
